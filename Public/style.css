@@ -1,18 +1,22 @@
-//Assignment1 by Shane Gimenez//
-//Codes are from w3schools.com//
+
+/* Codes are from w3schools.com 
+Assignment 2 by Shane Gimenez*/
+
+
 
 body {
     text-align: left;
-    margin: 200px;
+    margin: 100px;
     font-size: xx-large;
     text-indent: 7pt;
-    color: ghostwhite;
+    color:teal;
+    font-family: cursive;
 
 
-    background-image:url('./images/bee.jpg');
+    background-image:url('./images/bee.jpeg');
     background-repeat: no-repeat;
     background-position: fixed;
-    background-size: 85pc;
+    background-size: cover;
     
   
 }
@@ -34,10 +38,18 @@ img {
     height: 200px;
 }
 
+p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 img:hover {
     box-shadow: 0 0 5px 1px ghostwhite;
   
 }
 
-/* Codes are from w3schools.com */
+footer {
+    text-align: center;
+    color: whitesmoke;
+}
+
